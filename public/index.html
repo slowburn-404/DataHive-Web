@@ -25,7 +25,8 @@
                 <img class="p-1 mr-3 h-12 hover:opacity-80" src="hive.svg" alt="DataHive">
                 <p class="text-2xl font-bold text-yellow-900">DataHive</p>
             </a>
-            <button type="button" id="downloadCV" class="px-5 py-2 mr-3 text-sm font-medium text-center text-white bg-yellow-900 rounded-full hover:opacity-80 md:mr-0">Download
+            <button type="button" onclick="location.href = 'https://play.google.com/store/apps/details?id=com.datahiveorg.datahive';" class="px-5 py-2 mr-3 text-sm font-medium text-center text-white bg-yellow-900 rounded-full hover:opacity-80 md:mr-0">
+                Download
             </button>
         </div>
     </nav>
@@ -219,19 +220,18 @@
         </div>
     </section>
     <footer class="bg-gray-900">
-        <div class="flex justify-center items-center">
-            <p class="font-medium text-white">&copy;DataHive </p>
-            <p class="mx-1 font-medium text-white">
+        <div class="flex flex-col justify-center items-center">
+            <a href="https://play.google.com/store/apps/details?id=com.datahiveorg.datahive">
+                <img height="150" width="150" src="google-play-badge-logo.svg" alt="Get it on google play">
+            </a>
+            <p class="font-medium text-white">&copy;DataHive&nbsp;
                 <script>
                     date = new Date();
                     document.write(date.getUTCFullYear());
                 </script>
             </p>
         </div>
-        </div>
-
     </footer>
-
     <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
 </body>
 
