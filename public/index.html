@@ -26,69 +26,101 @@
             </a>
             <ul class="hidden p-4 space-x-10 md:flex md:space-x-8 md:mt-0 md:border-0">
                 <li>
-                    <a href="toc.html" class="text-xl font-semibold text-black hover:underline">Terms and Conditions</a>
+                    <a href="toc.html" class="text-sm font-semibold text-black hover:underline">Terms and Conditions</a>
                 </li>
             </ul>
-            <div class="flex gap-3 items-center">
-                <a class="font-semibold hover:opacity-80" href="#">Sign In</a>
-                <button type="button" onclick="location.href = '#';" class="px-5 py-2 mr-3 text-sm font-medium text-center text-white bg-yellow-900 rounded-full hover:opacity-80 md:mr-0">
-                    Sign Up
-                </button>
-            </div>
         </div>
     </nav>
     <section id="hero-section" class="container pt-20 mx-auto min-h-screen">
         <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-2">
             <div class="flex flex-col gap-2 justify-center p-4 mx-auto">
-                <h1 class="inline text-4xl font-bold text-gray-900">Value we provide</h1>
-                <p class="p4">How we provide it.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore explicabo aliquam dolores laudantium soluta tempora iusto excepturi sunt ipsa molestiae velit ipsam eveniet.</p>
-                <a class="hover:opacity-80" href="https://play.google.com/store/apps/details?id=com.datahiveorg.datahive" target="_blank">
-                    <img height="150" width="150" src="google-play-badge-logo.svg" alt="google-play-badge-logo">
-                </a>
+                <div class="flex flex-col">
+                    <h1 class="inline text-4xl font-bold text-gray-900">Value we provide</h1>
+                    <p class="p4">How we provide it.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore explicabo aliquam dolores laudantium soluta tempora iusto excepturi sunt ipsa molestiae velit ipsam eveniet.</p>
+                    <div class="flex gap-3 items-center pt-4">
+                        <a class="font-semibold text-yellow-900 hover:text-bee-yellow" href="auth/sign_in.html">Sign In</a>
+                        <button type="button" onclick="location.href = 'auth/sign_up.html';" class="px-5 py-2 mr-3 text-sm font-medium text-center text-white bg-yellow-900 rounded-full hover:bg-bee-yellow md:mr-0">
+                            Sign Up
+                        </button>
+                    </div>
+                    <a class="hover:opacity-80" href="https://play.google.com/store/apps/details?id=com.datahiveorg.datahive" target="_blank">
+                        <img height="150" width="150" src="google-play-badge-logo.svg" alt="google-play-badge-logo">
+                    </a>
+                </div>
             </div>
             <div class="flex justify-center items-center">
                 <img src="projections.svg" alt="">
             </div>
         </div>
     </section>
-    <section id="features" class="container mx-auto min-h-screen">
+    <section id="features" class="container mx-auto">
         <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-3">
             <div class="p-6 max-w-sm bg-white rounded-lg">
                 <img width="50" height="50" src="hive.svg" alt="">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature</h5>
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature one</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?</p>
             </div>
             <div class="p-6 max-w-sm bg-white rounded-lg">
                 <img width="50" height="50" src="hive.svg" alt="">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature</h5>
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature two</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?</p>
             </div>
             <div class="p-6 max-w-sm bg-white rounded-lg">
                 <img width="50" height="50" src="hive.svg" alt="">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature</h5>
+                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Feature three</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nobis aut nesciunt numquam veniam laborum non veritatis repudiandae vero?</p>
             </div>
         </div>
 
     </section>
-    <section id="benefits" class="container grid mx-auto min-h-screen">
+    <section id="benefitsOne" class="container grid mx-auto my-auto">
         <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-2">
+            <div class="flex justify-center items-center">
+                <img src="business_analytics.svg" alt="">
+            </div>
+            <div class="flex flex-col p-4">
+                <h3 class="inline text-4xl font-bold text-gray-900">Benefit of feature one</h3>
+                <p class="text-gray-800 p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto magni cumque culpa molestiae blanditiis. Vitae eveniet quas et incidunt magni reiciendis eum sint soluta repudiandae quis. Enim commodi nisi incidunt.</p>
+            </div>
 
         </div>
 
+    </section>
+    <section id="benefitsTwo" class="container grid mx-auto my-8">
+        <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-2">
+            <div class="order-last p-4 lg:order-first">
+                <h3 class="inline text-4xl font-bold text-gray-900">Benefit of feature two</h3>
+                <p class="text-gray-800 p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto magni cumque culpa molestiae blanditiis. Vitae eveniet quas et incidunt magni reiciendis eum sint soluta repudiandae quis. Enim commodi nisi incidunt.</p>
+            </div>
+            <div class="hidden p-4 md:flex">
+                <img src="business_analytics.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="benefitsThree" class="container grid mx-auto my-auto">
+        <div class="grid grid-cols-1 place-items-center p-4 lg:grid-cols-2">
+            <div class="p-4">
+                <img src="business_analytics.svg" alt="">
+            </div>
+            <div class="p-4">
+                <h3 class="inline text-4xl font-bold text-gray-900">Benefit of feature three</h3>
+                <p class="text-gray-800 p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto magni cumque culpa molestiae blanditiis. Vitae eveniet quas et incidunt magni reiciendis eum sint soluta repudiandae quis. Enim commodi nisi incidunt.</p>
+            </div>
+        </div>
     </section>
     <footer class="bg-gray-900">
         <div class="flex flex-col justify-center items-center">
             <a href="https://play.google.com/store/apps/details?id=com.datahiveorg.datahive">
                 <img height="150" width="150" src="google-play-badge-logo.svg" alt="Get it on google play">
             </a>
-            <p class="pb-2 font-medium text-white">&copy;DataHive&nbsp;
+            <a href="toc.html" class="p-2 text-sm font-semibold text-white hover:underline">Terms and Conditions</a>
+            <p class="p-2 font-medium text-white">&copy;DataHive&nbsp;
                 <script>
                     date = new Date();
                     document.write(date.getUTCFullYear());
@@ -98,3 +130,5 @@
     </footer>
     <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
 </body>
+
+</html>
